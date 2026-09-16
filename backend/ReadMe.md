@@ -1,0 +1,1 @@
+To compile all you need to do is press decode and bug, there isn't much in here currently and all thats going on is importing FastAPI and starting to think of what to do with AniList API

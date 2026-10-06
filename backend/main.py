@@ -31,7 +31,7 @@ query ($search: String) {
 def home():
     return {"message": "backend is now running"}
 
-@app.get("search")
+@app.get("/search")
 def search (q: str):
     response = httpx.post(
         ANILIST_URL,

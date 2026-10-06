@@ -32,7 +32,7 @@ def home():
     return {"message": "backend is now running"}
 
 @app.get("search")
-def search (q: str)
+def search (q: str):
     response = httpx.post(
         ANILIST_URL,
         json={"query": QUERY, "variables": {"search": q}},

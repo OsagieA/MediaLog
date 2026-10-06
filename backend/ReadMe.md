@@ -1,1 +1,2 @@
-To compile all you need to do is press decode and bug, there isn't much in here currently and all thats going on is importing FastAPI and starting to think of what to do with AniList API
+To compile all you need to do is press decode and bug, there isn't much in here currently and all thats going on is importing FastAPI and starting to think of what to do with AniList APi
+Make sure your running Node.js ABOVE 21.11.0, other than that it wont work
